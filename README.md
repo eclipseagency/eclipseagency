@@ -1,53 +1,65 @@
-# Mostafa Halawa
+# Mustafa Halawa
 
-**Full-Stack Developer & Founder** — Building SaaS products and digital platforms from Riyadh, Saudi Arabia.
+**Full-Stack Developer & Founder — Riyadh, Saudi Arabia**
 
-I design, build, and ship production systems end-to-end — from database schema to deployment pipeline. Currently running [Eclipse Agency](https://eclipseagency.net), where I build AI-powered tools, multi-tenant SaaS platforms, and high-performance web applications.
+I build and run production systems end-to-end: schema, application, payments, deployment, and the ops that keep them alive. Founder of [Eclipse Agency](https://eclipseagency.net), where I ship multi-tenant SaaS, booking and commerce platforms, and AI-backed internal tooling for clients across Saudi Arabia and the Gulf.
 
-200+ projects delivered on Freelancer. 5+ years building for the web.
-
----
-
-### Featured Projects
-
-| Project | Stack | Description |
-|---------|-------|-------------|
-| [**Eclipse Cloud ERP**](https://eclipsecloud.io) | Next.js · Prisma · PostgreSQL · PayPal | Multi-tenant SaaS ERP with auto-provisioning. 30+ DB models, invoicing, HR/payroll, inventory, CRM, tickets. Full Arabic + English i18n. |
-| [**Social Agent**](https://eclipseagency.pythonanywhere.com) | Flask · Gemini AI · APScheduler | AI-powered agency platform — content generation (copy + design), auto-publishing to social channels, team management, client billing. |
-| [**Airpost**](https://airpost.onrender.com) | Flask · Remotion · Gemini AI | Multi-tenant social media SaaS — AI intelligence engine, campaign automation, predictive analytics, multi-model design generation. |
-| [**Nick RIYADH**](https://nick.sa) | Next.js · React 19 · Supabase | Automotive protection booking system — 20 services, add-ons, tier-based pricing, discount engine, admin panel. |
-| [**Eclipse Agency**](https://eclipseagency.net) | Next.js · GSAP · Tailwind CSS | Bilingual agency site (AR/EN RTL) — 30fps animations, 8 case studies, SEO-optimized blog, JSON-LD structured data. |
-| **WhatsApp Bridge** | Node.js · Baileys | Automated messaging microservice — integrates with Social Agent for auto-delivering designs to client WhatsApp groups. |
-
-> All projects are live in production, built and maintained solo.
+**5+ years building for the web · 200+ projects delivered · Arabic/English bilingual systems**
 
 ---
 
-### Tech Stack
+### Live in Production
+
+Every link below is a running system I designed, built, and maintain.
+
+| Project | What it does | Stack |
+|---|---|---|
+| [**NICK Riyadh**](https://nick.sa) | Automotive protection booking — service catalogue, tier-based pricing, discount engine, inventory, multi-role admin, ZATCA e-invoicing, WhatsApp notifications | Next.js · React 19 · Supabase · WATI |
+| [**Furnobly**](https://furnobly.com) | Furniture rent-to-own commerce — instalment engine, card checkout, prerendered catalogue, companion iOS app | Next.js · Paymob · Expo |
+| [**Jobly**](https://jobly.ph) | Philippines job marketplace — employer and seeker portals, OAuth onboarding, applicant trust and anti-ghosting system | Next.js · Prisma · PostgreSQL |
+| [**Hasel**](https://hasel.sa) | Partnership and agreements platform — self-hosted, role-gated admin panels | Laravel · Filament · Coolify |
+| [**Fawtar**](https://fawtar.com) | Invoicing and document tooling — 21-tool directory, Arabic-first, SEO-driven acquisition | Next.js · Supabase |
+| [**Eclipse Cloud ERP**](https://eclipsecloud.io) | Multi-tenant ERP with auto-provisioning — invoicing, HR/payroll, inventory, CRM, ticketing, full AR/EN i18n | Next.js · Prisma · PostgreSQL · PayPal |
+| [**Social Agent**](https://eclipseagency.pythonanywhere.com) | Agency operations platform — AI content generation, scheduled publishing, client billing | Flask · Gemini · APScheduler |
+
+---
+
+### What I Actually Do
+
+- **Own the whole stack.** Database design through production deployment, DNS, and incident response — not just the part that renders.
+- **Ship revenue systems.** Payment integrations, subscription and instalment billing, tax-compliant e-invoicing (ZATCA Phase 2), and the reconciliation around them.
+- **Build AI into real workflows.** Content pipelines, lead qualification, and internal automation that run unattended — not demos.
+- **Bilingual by default.** Arabic RTL and English LTR with correct i18n, locale routing, and typography.
+- **Operate what I build.** Monitoring, backups, migrations, and on-call for the platforms above.
+
+---
+
+### Tech
 
 ```
-Frontend     →  React, Next.js (14–16), TypeScript, Tailwind CSS, GSAP, Remotion
-Backend      →  Python (Flask), Node.js, Prisma, REST APIs, APScheduler
-AI/ML        →  Google Gemini (text + vision), ElevenLabs TTS, AI content pipelines
-Databases    →  PostgreSQL, SQLite, Supabase, Prisma ORM
-Infra        →  Vercel, Render, PythonAnywhere, Cloudflare DNS
-Integrations →  PayPal, WhatsApp (Baileys), SMTP/IMAP, LinkedIn OAuth, Selenium
+Frontend     →  React, Next.js (14–16), TypeScript, Tailwind CSS, GSAP
+Backend      →  Node.js, Python (Flask), PHP (Laravel/Filament), Prisma, REST APIs
+Mobile       →  React Native, Expo
+AI/ML        →  Google Gemini, OpenAI, ElevenLabs, Whisper, AI content pipelines
+Data         →  PostgreSQL, Supabase, SQLite, MySQL
+Infra        →  Vercel, Hetzner, Coolify, Cloudflare, Render, Docker
+Payments     →  Paymob, PayPal, ZATCA e-invoicing
+Integrations →  WhatsApp Business API, Meta CAPI, GA4, Google Ads, SMTP/IMAP, OAuth
 ```
 
 ---
 
-### How I Work
+### A note on the empty repo list
 
-- **Ship end-to-end** — from schema design to production deployment, I own the full stack
-- **AI-native** — I build AI into real business workflows, not toy demos
-- **Bilingual systems** — Arabic RTL + English LTR with proper i18n and locale routing
-- **200+ projects** — consistent delivery across SaaS, booking systems, dashboards, and corporate sites
+Client platforms and commercial products live in private repositories under contract. The systems above are the portfolio — all of them are live, and you can use them right now. Happy to walk through architecture, code, or trade-offs on a call.
 
 ---
 
-### Let's Connect
+### Contact
 
 [![Website](https://img.shields.io/badge/eclipseagency.net-000?style=for-the-badge&logo=vercel&logoColor=white)](https://eclipseagency.net)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mustafa-h/)
 [![Freelancer](https://img.shields.io/badge/Freelancer-29B2FE?style=for-the-badge&logo=freelancer&logoColor=white)](https://www.freelancer.com/u/moshalawa)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mustafa.halawa9@gmail.com)
+
+**Available for freelance and contract work.**
