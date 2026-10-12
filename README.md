@@ -1,65 +1,47 @@
 # Mustafa Halawa
 
-**Full-Stack Developer & Founder — Riyadh, Saudi Arabia**
+### Full-stack developer · Founder, Eclipse Agency
 
-I build and run production systems end-to-end: schema, application, payments, deployment, and the ops that keep them alive. Founder of [Eclipse Agency](https://eclipseagency.net), where I ship multi-tenant SaaS, booking and commerce platforms, and AI-backed internal tooling for clients across Saudi Arabia and the Gulf.
+I build web products from the database and API through the interface and production operations. My work spans job marketplaces, booking systems, commerce, invoicing and internal AI workflows.
 
-**5+ years building for the web · 200+ projects delivered · Arabic/English bilingual systems**
+**React · Next.js · TypeScript · Node.js · PostgreSQL · REST APIs**
 
----
+[GitHub code sample](https://github.com/eclipseagency/agent-work-journal) · [Agency](https://eclipseagency.net) · [Email](mailto:mustafa.halawa9@gmail.com)
 
-### Live in Production
+## Public code you can review
 
-Every link below is a running system I designed, built, and maintain.
+### [Agent Work Journal](https://github.com/eclipseagency/agent-work-journal)
+An original portfolio project for local task coordination: a React/TypeScript interface, Node.js REST API and append-only event journal. It explores durable task state, retry-safe commands and stale-update conflicts. The repository includes setup instructions, design trade-offs and automated tests. This is a focused demonstration, not a claim of a production client deployment.
 
-| Project | What it does | Stack |
-|---|---|---|
-| [**NICK Riyadh**](https://nick.sa) | Automotive protection booking — service catalogue, tier-based pricing, discount engine, inventory, multi-role admin, ZATCA e-invoicing, WhatsApp notifications | Next.js · React 19 · Supabase · WATI |
-| [**Furnobly**](https://furnobly.com) | Furniture rent-to-own commerce — instalment engine, card checkout, prerendered catalogue, companion iOS app | Next.js · Paymob · Expo |
-| [**Jobly**](https://jobly.ph) | Philippines job marketplace — employer and seeker portals, OAuth onboarding, applicant trust and anti-ghosting system | Next.js · Prisma · PostgreSQL |
-| [**Hasel**](https://hasel.sa) | Partnership and agreements platform — self-hosted, role-gated admin panels | Laravel · Filament · Coolify |
-| [**Fawtar**](https://fawtar.com) | Invoicing and document tooling — 21-tool directory, Arabic-first, SEO-driven acquisition | Next.js · Supabase |
-| [**Eclipse Cloud ERP**](https://eclipsecloud.io) | Multi-tenant ERP with auto-provisioning — invoicing, HR/payroll, inventory, CRM, ticketing, full AR/EN i18n | Next.js · Prisma · PostgreSQL · PayPal |
-| [**Social Agent**](https://eclipseagency.pythonanywhere.com) | Agency operations platform — AI content generation, scheduled publishing, client billing | Flask · Gemini · APScheduler |
+## Selected product work
 
----
+| Product | Domain and technical work |
+| --- | --- |
+| [Jobly](https://www.jobly.ph) | Job marketplace with seeker/employer workflows, applications and CV tooling. Next.js, TypeScript, Prisma and PostgreSQL. |
+| [NICK](https://nick.sa) | Automotive service booking and administration, including pricing and operational integrations. Next.js, React and Supabase. |
+| [Fawtar](https://fawtar.com) | Arabic-first invoicing and document workflows. Next.js and Supabase. |
+| [Furnobly](https://furnobly.com) | Furniture commerce with catalogue and payment workflows, plus mobile work with Expo. |
+| [Hasel](https://hasel.sa) | Partnership and agreement workflows, with Laravel and Filament administration. |
 
-### What I Actually Do
+Commercial and client repositories remain private. The public sample above gives reviewers code to inspect without exposing client data or proprietary source.
 
-- **Own the whole stack.** Database design through production deployment, DNS, and incident response — not just the part that renders.
-- **Ship revenue systems.** Payment integrations, subscription and instalment billing, tax-compliant e-invoicing (ZATCA Phase 2), and the reconciliation around them.
-- **Build AI into real workflows.** Content pipelines, lead qualification, and internal automation that run unattended — not demos.
-- **Bilingual by default.** Arabic RTL and English LTR with correct i18n, locale routing, and typography.
-- **Operate what I build.** Monitoring, backups, migrations, and on-call for the platforms above.
+## How I work
 
----
+- Build complete features across UI, REST endpoints and relational data models.
+- Work in small Git changes with tests, clear review notes and reproducible verification.
+- Design Arabic/English interfaces, including RTL layout and localized content.
+- Operate deployed applications: migrations, monitoring, troubleshooting and release checks.
+- Use AI coding agents as part of a reviewed development workflow; keep ownership, validation and handoff explicit.
 
-### Tech
+## Technical toolkit
 
-```
-Frontend     →  React, Next.js (14–16), TypeScript, Tailwind CSS, GSAP
-Backend      →  Node.js, Python (Flask), PHP (Laravel/Filament), Prisma, REST APIs
-Mobile       →  React Native, Expo
-AI/ML        →  Google Gemini, OpenAI, ElevenLabs, Whisper, AI content pipelines
-Data         →  PostgreSQL, Supabase, SQLite, MySQL
-Infra        →  Vercel, Hetzner, Coolify, Cloudflare, Render, Docker
-Payments     →  Paymob, PayPal, ZATCA e-invoicing
-Integrations →  WhatsApp Business API, Meta CAPI, GA4, Google Ads, SMTP/IMAP, OAuth
-```
+- **Web:** React, Next.js, TypeScript, Tailwind CSS
+- **Backend/data:** Node.js, REST APIs, Prisma, PostgreSQL, Supabase; Python/Flask and PHP/Laravel
+- **Delivery:** Git/GitHub, automated tests, Vercel, Docker, Cloudflare, production debugging
+- **Mobile:** React Native and Expo
 
----
+## Contact
 
-### A note on the empty repo list
+[Email](mailto:mustafa.halawa9@gmail.com) · [LinkedIn](https://www.linkedin.com/in/mustafa-h/) · [Eclipse Agency](https://eclipseagency.net)
 
-Client platforms and commercial products live in private repositories under contract. The systems above are the portfolio — all of them are live, and you can use them right now. Happy to walk through architecture, code, or trade-offs on a call.
-
----
-
-### Contact
-
-[![Website](https://img.shields.io/badge/eclipseagency.net-000?style=for-the-badge&logo=vercel&logoColor=white)](https://eclipseagency.net)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mustafa-h/)
-[![Freelancer](https://img.shields.io/badge/Freelancer-29B2FE?style=for-the-badge&logo=freelancer&logoColor=white)](https://www.freelancer.com/u/moshalawa)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mustafa.halawa9@gmail.com)
-
-**Available for freelance and contract work.**
+Open to remote full-stack development opportunities.
