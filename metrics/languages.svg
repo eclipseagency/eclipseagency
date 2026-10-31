@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="320" viewBox="0 0 480 320" font-family="Segoe UI,Ubuntu,Helvetica,sans-serif">
+<rect width="480" height="320" rx="10" fill="#1d2021" stroke="#3c3836"/>
+<text x="22" y="34" fill="#F59E0B" font-size="15" font-weight="600">Languages by code volume</text>
+<text x="22" y="54" fill="#a89984" font-size="11">across 51 repositories, public and private &#183; 112 MB indexed by GitHub</text>
+<text x="22" y="71" fill="#7c6f64" font-size="9.5">generated HTML/CSS build output excluded</text>
+<text x="22" y="107" fill="#ebdbb2" font-size="12">TypeScript</text>
+<rect x="148" y="98" width="250" height="11" rx="5.5" fill="#32302f"/>
+<rect x="148" y="98" width="250.0" height="11" rx="5.5" fill="#3178C6"/>
+<text x="410" y="107" fill="#a89984" font-size="11">44.5%</text>
+<text x="22" y="133" fill="#ebdbb2" font-size="12">JavaScript</text>
+<rect x="148" y="124" width="250" height="11" rx="5.5" fill="#32302f"/>
+<rect x="148" y="124" width="107.1" height="11" rx="5.5" fill="#F1E05A"/>
+<text x="410" y="133" fill="#a89984" font-size="11">19.1%</text>
+<text x="22" y="159" fill="#ebdbb2" font-size="12">Go</text>
+<rect x="148" y="150" width="250" height="11" rx="5.5" fill="#32302f"/>
+<rect x="148" y="150" width="94.6" height="11" rx="5.5" fill="#00ADD8"/>
+<text x="410" y="159" fill="#a89984" font-size="11">16.8%</text>
+<text x="22" y="185" fill="#ebdbb2" font-size="12">Python</text>
+<rect x="148" y="176" width="250" height="11" rx="5.5" fill="#32302f"/>
+<rect x="148" y="176" width="41.4" height="11" rx="5.5" fill="#3572A5"/>
+<text x="410" y="185" fill="#a89984" font-size="11">7.4%</text>
+<text x="22" y="211" fill="#ebdbb2" font-size="12">PHP</text>
+<rect x="148" y="202" width="250" height="11" rx="5.5" fill="#32302f"/>
+<rect x="148" y="202" width="25.3" height="11" rx="5.5" fill="#4F5D95"/>
+<text x="410" y="211" fill="#a89984" font-size="11">4.5%</text>
+<text x="22" y="237" fill="#ebdbb2" font-size="12">C#</text>
+<rect x="148" y="228" width="250" height="11" rx="5.5" fill="#32302f"/>
+<rect x="148" y="228" width="24.1" height="11" rx="5.5" fill="#178600"/>
+<text x="410" y="237" fill="#a89984" font-size="11">4.3%</text>
+<text x="22" y="263" fill="#ebdbb2" font-size="12">PLpgSQL</text>
+<rect x="148" y="254" width="250" height="11" rx="5.5" fill="#32302f"/>
+<rect x="148" y="254" width="9.7" height="11" rx="5.5" fill="#336790"/>
+<text x="410" y="263" fill="#a89984" font-size="11">1.7%</text>
+<text x="22" y="289" fill="#ebdbb2" font-size="12">Blade</text>
+<rect x="148" y="280" width="250" height="11" rx="5.5" fill="#32302f"/>
+<rect x="148" y="280" width="7.6" height="11" rx="5.5" fill="#F7523F"/>
+<text x="410" y="289" fill="#a89984" font-size="11">1.4%</text>
+</svg>
