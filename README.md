@@ -10,7 +10,7 @@
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub-contributions-api.jogruber.de%2Fv4%2Feclipseagency%3Fy%3Dlast&query=%24.total.lastYear&label=contributions%20(last%20year)&color=F59E0B&style=flat-square&logo=github" alt="contributions" />
+  <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feclipseagency%2Feclipseagency%2Fmain%2Fmetrics%2Fcontributions.json&style=flat-square" alt="contributions in the last year" />
   <img src="https://img.shields.io/badge/products%20live%20in%20production-9-F59E0B?style=flat-square" alt="products" />
   <img src="https://img.shields.io/badge/markets-SA%20%C2%B7%20EG%20%C2%B7%20PH-F59E0B?style=flat-square" alt="markets" />
   <img src="https://img.shields.io/badge/interfaces-Arabic%20%2F%20English%20RTL-F59E0B?style=flat-square" alt="rtl" />
