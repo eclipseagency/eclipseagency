@@ -11,7 +11,7 @@
 
 <p>
   <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feclipseagency%2Feclipseagency%2Fmain%2Fmetrics%2Fcontributions.json&style=flat-square" alt="contributions in the last year" />
-  <img src="https://img.shields.io/badge/products%20live%20in%20production-9-F59E0B?style=flat-square" alt="products" />
+  <img src="https://img.shields.io/badge/client%20products%20live-7-F59E0B?style=flat-square" alt="products" />
   <img src="https://img.shields.io/badge/markets-SA%20%C2%B7%20EG%20%C2%B7%20PH-F59E0B?style=flat-square" alt="markets" />
   <img src="https://img.shields.io/badge/interfaces-Arabic%20%2F%20English%20RTL-F59E0B?style=flat-square" alt="rtl" />
 </p>
@@ -27,7 +27,7 @@
 
 Full-stack developer and founder of **Eclipse Agency**. I design and ship commercial web products end to end: schema and migrations, REST APIs, React/Next.js interfaces, payment and messaging integrations, then the deployments, monitoring and incident fixes that come after launch.
 
-- **9 products live in production** across Saudi Arabia, Egypt and the Philippines — booking, invoicing, commerce, job marketplaces, ERP
+- **7 client products live in production** across Saudi Arabia, Egypt and the Philippines — booking, invoicing, commerce and job marketplaces, plus two internal platforms I built and run
 - **Arabic-first by default**: full RTL layouts, bilingual routing, localized content and documents
 - **Payments and compliance shipped**: Tap, Tabby, PayPal, Neoleap, ZATCA e-invoicing (Phase 2)
 - **I operate what I build**: Vercel, Docker, Cloudflare, Coolify, Supabase, self-hosted Linux
@@ -39,15 +39,20 @@ Full-stack developer and founder of **Eclipse Agency**. I design and ship commer
 
 | Product | What it does | Stack |
 |---|---|---|
-| **[Jobly](https://www.jobly.ph)** | Job marketplace — seeker and employer workflows, applications pipeline, CV tooling, moderation | `Next.js` `TypeScript` `Prisma` `PostgreSQL` |
-| **[NICK](https://nick.sa)** | Automotive protection booking and admin — pricing engine, warranties, invoicing, WhatsApp automation | `Next.js` `React 19` `Supabase` |
-| **[Fawtar](https://fawtar.com)** | Arabic-first invoicing SaaS — ZATCA Phase 2 e-invoicing, Salla/Zid connectors, multi-tenant RLS | `Next.js` `Supabase` `PostgreSQL` |
-| **[Furnobly](https://furnobly.com)** | Furniture commerce — buy and rent catalogues, checkout, auto-debit, iOS app | `Next.js` `Expo` `Supabase` |
-| **[Hasel](https://hasel.sa)** | Sponsorship and agreement platform — portal, document workflows, admin | `Laravel 11` `Filament 3` |
+| **[Jobly](https://www.jobly.ph)** | Job marketplace — seeker and employer workflows, applications pipeline, CV tooling, moderation | `Next.js 15` `React 18` `Prisma` `PostgreSQL` |
+| **[NICK](https://nick.sa)** | Automotive protection booking and admin — pricing engine, warranties, invoicing, WhatsApp automation | `Next.js 16` `React 19` `Supabase` |
+| **[Fawtar](https://fawtar.app)** | Arabic-first invoicing SaaS — ZATCA Phase 2 e-invoicing, Salla/Zid connectors, multi-tenant RLS | `Next.js 16` `React 19` `Supabase` |
+| **[Furnobly](https://furnobly.com)** | Furniture commerce — buy and rent catalogues, checkout, auto-debit, iOS app | `Vanilla JS` `31 serverless functions` `Supabase` `Expo` (app) |
+| **[Hasel](https://hasel.sa)** | Sponsorship and agreement platform — portal, document workflows, admin | `Laravel 12` `Filament 3` `PHP 8.2` |
 | **[Eclipse Agency](https://eclipseagency.net)** | Agency site — bilingual AR/EN, server-rendered Arabic routes, GSAP motion | `Next.js 16` `Tailwind v4` `GSAP` |
-| **[ToolCargo](https://toolcargo.com)** | Hosted MCP connectors for AI agents — toolkits, billing, auth | `TypeScript` `Node.js` |
+| **[ToolCargo](https://toolcargo.com)** | Hosted MCP connectors for AI agents — toolkits, billing, auth | `Next.js 16` `React 19` `TypeScript` |
+
+Internal platforms I built and run, not client-facing products:
+
+| Platform | What it does | Stack |
+|---|---|---|
 | **Social Agent** | Multi-tenant AI content platform — generation, approvals, auto-publishing, billing | `Flask` `Python` `Gemini` |
-| **Command Center** | Internal agent orchestration — job board, heartbeats, review queue, dashboards | `Python` `FastAPI` |
+| **Command Center** | Agent orchestration — job board, heartbeats, review queue, dashboards | `Python` |
 
 <sub>Client and commercial repositories are private. The public repositories below exist so reviewers can read real code without client data.</sub>
 
