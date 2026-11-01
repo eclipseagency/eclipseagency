@@ -12,7 +12,7 @@
 <p>
   <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feclipseagency%2Feclipseagency%2Fmain%2Fmetrics%2Fcontributions.json&style=flat-square" alt="contributions in the last year" />
   <img src="https://img.shields.io/badge/client%20products%20live-7-F59E0B?style=flat-square" alt="products" />
-  <img src="https://img.shields.io/badge/markets-SA%20%C2%B7%20EG%20%C2%B7%20PH-F59E0B?style=flat-square" alt="markets" />
+  <img src="https://img.shields.io/badge/markets-Saudi%20Arabia%20%C2%B7%20Philippines-F59E0B?style=flat-square" alt="markets" />
   <img src="https://img.shields.io/badge/interfaces-Arabic%20%2F%20English%20RTL-F59E0B?style=flat-square" alt="rtl" />
 </p>
 
@@ -27,7 +27,7 @@
 
 Full-stack developer and founder of **Eclipse Agency**. I design and ship commercial web products end to end: schema and migrations, REST APIs, React/Next.js interfaces, payment and messaging integrations, then the deployments, monitoring and incident fixes that come after launch.
 
-- **7 client products live in production** across Saudi Arabia, Egypt and the Philippines — booking, invoicing, commerce and job marketplaces, plus two internal platforms I built and run
+- **7 client products live in production** across Saudi Arabia and the Philippines — booking, invoicing, commerce and job marketplaces, plus two internal platforms I built and run
 - **Arabic-first by default**: full RTL layouts, bilingual routing, localized content and documents
 - **Payments and compliance shipped**: Tap, Tabby, PayPal, Neoleap, ZATCA e-invoicing (Phase 2)
 - **I operate what I build**: Vercel, Docker, Cloudflare, Coolify, Supabase, self-hosted Linux
@@ -170,6 +170,6 @@ Runnable MCP connectors with offline fixtures — the portfolio edition of the T
 <a href="https://www.linkedin.com/in/mustafa-h/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="https://eclipseagency.net"><img src="https://img.shields.io/badge/eclipseagency.net-F59E0B?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
 
-<sub>Based in Egypt · working across Saudi Arabia, Egypt and the Philippines · open to remote worldwide</sub>
+<sub>Based in Riyadh, Saudi Arabia · shipping for clients in Saudi Arabia and the Philippines · open to remote worldwide</sub>
 
 </div>
