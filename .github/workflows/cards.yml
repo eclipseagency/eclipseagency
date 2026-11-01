@@ -1,0 +1,20 @@
+name: Profile cards
+
+on:
+  schedule: [{ cron: "0 3 * * *" }]
+  workflow_dispatch:
+  push: { branches: [main] }
+
+permissions:
+  contents: write
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: eclipseagency/readme-cards@v1
+        with:
+          token: ${{ secrets.CARDS_TOKEN != '' && secrets.CARDS_TOKEN || github.token }}
+          theme: dark
+          accent: "#f59e0b"
