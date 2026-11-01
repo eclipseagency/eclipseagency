@@ -1,9 +1,13 @@
 name: Profile cards
 
+# These cards must reflect every repository, private included. The default
+# GITHUB_TOKEN only sees public ones and regenerates them as "4 repositories,
+# 224 kB / 16 commits", which understates the profile badly. So the job runs
+# only when CARDS_TOKEN (a PAT with repo read access) is configured; without
+# it the committed cards are left alone.
 on:
   schedule: [{ cron: "0 3 * * *" }]
   workflow_dispatch:
-  push: { branches: [main] }
 
 permissions:
   contents: write
@@ -13,8 +17,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - id: gate
+        env:
+          CARDS_TOKEN: ${{ secrets.CARDS_TOKEN }}
+        run: |
+          if [ -n "$CARDS_TOKEN" ]; then echo "ok=true" >> "$GITHUB_OUTPUT"
+          else echo "ok=false" >> "$GITHUB_OUTPUT"
+               echo "::notice::CARDS_TOKEN not set; keeping the committed cards."
+          fi
       - uses: eclipseagency/readme-cards@v1
+        if: steps.gate.outputs.ok == 'true'
         with:
-          token: ${{ secrets.CARDS_TOKEN != '' && secrets.CARDS_TOKEN || github.token }}
+          token: ${{ secrets.CARDS_TOKEN }}
           theme: dark
           accent: "#f59e0b"
